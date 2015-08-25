@@ -1,0 +1,24 @@
+.bar {
+    float: left;
+    width: 25%; /* must never add up to more than 100% */
+}
+html, body, #wrapper, .bar {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#wrapper {
+    width: 70%;
+}
+.green {
+    background-color: dodgerblue;
+}
+.greener {
+    background-color: aquamarine;
+}
+.greenest {
+    background-color: limegreen;
+}
+.img {
+    padding-left:500px
+}
